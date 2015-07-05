@@ -10,7 +10,7 @@
 
 
 ####**类：org.apache.spark.rdd.RDD**  
-####function:  
+####function: 函数讲解 
 **1. def ++(other:RDD[T]):RDD[T]**    
 
 返回当前RDD和指定参数中的RDD的并集，这里并不去重，需要用distinct方法去重    
